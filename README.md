@@ -1,10 +1,8 @@
-# fast downloader web extension
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+# Arianne web extension
 
 ## Install
 
-	$ npm install
+    $ npm install
 
 ## Development
 
@@ -19,11 +17,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     npm run build firefox
     npm run build opera
     npm run build edge
-
-## Environment
-
-The build tool also defines a variable named `process.env.NODE_ENV` in your scripts. 
-
-## Docs
-
-* [webextension-toolbox](https://github.com/HaNdTriX/webextension-toolbox)
