@@ -6,33 +6,21 @@
     "dev": "webextension-toolbox dev -s src --no-manifest-validation",
     "build": "webextension-toolbox build -s src --no-manifest-validation"
   },
+  "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "@babel/preset-env": "^7.19.4",
+    "arianne-downloader-react-components": "github:JaroslawPokropinski/arianne-downloader-react-components",
+    "graphql": "^16.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@types/chrome": "^0.0.197",
     "@types/firefox-webext-browser": "^94.0.1",
+    "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "@types/react-transition-group": "^4.4.5",
     "@webextension-toolbox/webextension-toolbox": "^5.2.2",
     "autoprefixer": "^10.4.12",
-    "css-loader": "^6.7.1",
-    "postcss": "^8.4.17",
-    "postcss-loader": "^7.0.1",
-    "postcss-preset-env": "^7.8.2",
-    "sass": "^1.55.0",
-    "sass-loader": "^13.1.0",
-    "style-loader": "^3.3.1",
-    "tailwindcss": "^3.1.8",
-    "typescript": "^4.8.4",
-    "typescript-plugin-css-modules": "^3.4.0"
-  },
-  "dependencies": {
-    "@ant-design/icons": "^4.7.0",
-    "@apollo/client": "^3.7.0",
-    "antd": "^4.23.4",
-    "bootstrap": "^5.2.2",
-    "graphql": "^16.6.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
-    "react-transition-group": "^4.4.5"
+    "typescript": "^4.8.4"
   }
 }
